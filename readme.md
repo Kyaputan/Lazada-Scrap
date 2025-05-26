@@ -67,19 +67,60 @@ python main.py -q "Samsung Galaxy" -p 10 --no-headless -o "samsung_data.csv"
 The script will create a CSV file (default: `lazada_data.csv`) in the same directory, containing the scraped data sorted by price (descending).
 
 ## 📖 Command Line Options
-
 <p align="center"><b>Available CLI Parameters</b></p>
 
-| Option          | Short | Description                          | Default          |
-|-----------------|-------|--------------------------------------|------------------|
-| `--query`       | `-q`  | Product name to search for           | Required*        |
-| `--pages`       | `-p`  | Number of pages to scrape (1–50)     | 5                |
-| `--no-headless` | -     | Run browser in visible mode          | headless         |
-| `--output`      | `-o`  | Output CSV filename                  | lazada_data.csv  |
-| `--interactive` | -     | Run in interactive mode              | -                |
-| `--version`     | -     | Show version information             | -                |
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Option</th>
+        <th>Short</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>--query</code></td>
+        <td><code>-q</code></td>
+        <td>Product name to search for</td>
+        <td>Required*</td>
+      </tr>
+      <tr>
+        <td><code>--pages</code></td>
+        <td><code>-p</code></td>
+        <td>Number of pages to scrape (1–50)</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td><code>--no-headless</code></td>
+        <td>-</td>
+        <td>Run browser in visible mode</td>
+        <td>headless</td>
+      </tr>
+      <tr>
+        <td><code>--output</code></td>
+        <td><code>-o</code></td>
+        <td>Output CSV filename</td>
+        <td>lazada_data.csv</td>
+      </tr>
+      <tr>
+        <td><code>--interactive</code></td>
+        <td>-</td>
+        <td>Run in interactive mode</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><code>--version</code></td>
+        <td>-</td>
+        <td>Show version information</td>
+        <td>-</td>
+      </tr>
+    </tbody>
+  </table>
+  <p><small>*Required unless using <code>--interactive</code> mode</small></p>
+</div>
 
-<small>*Required unless using `--interactive` mode</small>
 
 
 ## 🎯 Usage Examples
