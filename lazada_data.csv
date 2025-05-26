@@ -1,41 +1,81 @@
-Title,Price,Brand,Review Count,Rating,Location
-Product,49900.0,Samsung Galaxy S24 ULTRA 5G(12+256)  ( Activate ),2,5,Chachoengsao
-Product,34999.0,Samsung Galaxy S24 Ultra 12/256GB,1701,4,Chachoengsao
-Product,33990.0,"Samsung Galaxy S24 Ultra 12/256GB,512GB,1TB , AI Phone, Titanium  200MP , S Pen, ",2010,5,Chachoengsao
-Product,32900.0,"SAMSUNG Galaxy S24 Ultra (RAM 12GB, 256GB, Titanium Gray)",75,4,Samut Prakan
-Product,32900.0,"SAMSUNG Galaxy S24 Ultra (RAM 12GB, 256GB, Titanium Black)",66,4,Samut Prakan
-Product,32632.0,Samsung Galaxy S24 Ultra (12/256GB) Galaxy Ai   1  ,12,5,Pathum Thani
-Product,18400.0,"Samsung Galaxy S24 FE    AI  50MP  6.7""",5,5,Bangkok
-Product,17900.0,"Samsung Galaxy S24 FE 8/128GB,256GB",31,5,Chachoengsao
-Product,17900.0,Samsung Galaxy S24 FE 5G (Galaxy Ai)    1   By TG,99,5,Pathum Thani
-Product,17900.0,"Samsung Galaxy S24 FE 8/128GB,256GB",392,5,Chachoengsao
-Product,12850.0,Sealife SportDiver Ultra Smartphone Underwater Housing for iPhone & Android,4,5,Phuket
-Product,11490.0,[NEW]POCO X7 PRO 12+256/12+512 | Dimensity 8400-Ultra | 6000mAh (typ)  90W| AMOLED CrystalRes 1.5K 120Hz| 50MP  OIS| IP68*,3250,5,Samut Prakan
-Product,6374.0,【4K 60Hz】UGREEN 10-in-1 10Gbps USB C Multiport Adapter HUB  for Macbook Air M3 Samsung S24 Ultra Model: 90912,12,5,Bangkok
-Product,4999.0,"[] Xiaomi Redmi Pad SE 6+128/8+256  6nm Snapdragon  11"" 90Hz  15 ",979,5,Bangkok
-Product,4080.0,Adidas  Avacourt 2 | Green Spark S24/Core Black/Lucid Lemon F23 ( IF0400 ),1,5,Nonthaburi
-Product,4080.0,Adidas  Barricade 13 | Cloud White/Core Black/Crystal Jade S24 ( IF0409 ),1,5,Nonthaburi
-Product,4080.0,Adidas  Barricade 13 | Cloud White/Core Black/Semi Green Spark S24 ( IG3114 ),8,5,Nonthaburi
-Product,3968.0,"NEEWER LS-59 85mm HD Telephoto Phone Lens, for 17mm Thread Lens Mount, for iPhone 16 15 Pro Max Samsung S25 S24 S23 Ultra",7,5,Samut Prakan
-Product,3851.0,【Nexode】UGREEN GaN 300W Fast Charger Adapter for Laptop Macbook iPad iPhone 15 Pro Max Samsung S25 S24 Ultra Model:90872,199,4,Bangkok
-Product,3177.0,【4K 60Hz】UGREEN 13-in-1 10Gbps USB C Multiport Adapter HUB  for Macbook Air M3 Samsung S24 Ultra Model: 15978,38,5,Bangkok
-Product,2999.0,【Nexode】UGREEN GaN 200W USB C Fast Charger Adapter for Laptop MacBook iPad iPhone 15 14 Pro Max Samsung S25 S24 Ultra Model: 40913,232,5,Chachoengsao
-Product,2876.0,RIPCURL  01GMJA ARCHIVE SUPER COMPUTER JACKET S24,4,4,Bangkok
-Product,2876.0,RIPCURL  UV 17DWRV LOTTIE CHECK LS UPF SURFSUIT S24,2,5,Bangkok
-Product,2876.0,RIPCURL  UV 15CWRV PREMIUM SURF LS SURF SUIT S24,5,5,Bangkok
-Product,2752.72, m-horse  S24 Ram8GB Rom128GB  4G   6.6     ,8,4,Bangkok
-Product,2750.0,【Nexode Pro】UGREEN GaN 160W Fast Charger Foldable Adapter  for MacBook iPad iPhone 15 14 Pro Max Samsung S25 S24 Steam Deck Model: 25094,156,4,Bangkok
-Product,2556.0,RIPCURL  09OMBO MIRAGE SEARCH S24,3,5,Bangkok
-Product,2511.0,【Nexode X】UGREEN GaN 160W Fast Charger Foldable Adapter  for MacBook iPad iPhone 15 14 Pro Max Samsung S25 S24 Ultra Steam Deck Model: 35039,35,5,Bangkok
-Product,2372.0,Pitaka  Galaxy S24 Ultra -  PinButton -  Black/Grey Twill by Vgadz,57,5,Bangkok
-Product,2236.0,RIPCURL   03AMWS ARCHIVE DENIM WALK SHORT S24,6,4,Bangkok
-Product,2236.0,RIPCURL   02HMWS SUPER COMPUTER DENIM WALKSHORT S24,3,5,Bangkok
-Product,2236.0,RIPCURL   02CMWS CLASSIC SURF DENIM WALKSHORT S24,3,5,Bangkok
-Product,2236.0,RIPCURL   02DMWS CLASSIC SURF TRAIL CARGO S24,3,5,Bangkok
-Product,2233.0,UAG -  Galaxy S24 / S24 Plus / S24 Ultra  Monarch Pro,66,5,Bangkok
-Product,2233.0,UAG  Galaxy S24 / S24 Plus / S24 Ultra  Monarch Pro by Vgadz,64,5,Bangkok
-Product,2202.0,Pitaka -  Galaxy S24 Ultra  MagEZ Case 4 by Vgadz,102,5,Bangkok
-Product,2199.1,YORU  S24 Ultra 5G  16+512GB Android14.0 8000mAh ,7,5,Pathum Thani
-Product,2152.0,RIPCURL   0JTWSW SUN TO SEA L/L CROP TOP & CHEEKY HIPSTER BOT S24,4,5,Bangkok
-Product,2117.0,[Official] Boxset S24 Ultra  3D UV Ultra Clear    1  Ablemen,4,5,Samut Prakan
-Product,2090.0,Pitaka  MagEZ Case 4 -  Galaxy S24 Ultra by Vgadz,11,5,Bangkok
+Title,Price,Brand,Review Count,Rating,Location,Link
+Product,49900.0,Samsung Galaxy S24 ULTRA 5G(12+256)  ( Activate ),2,5,ฉะเชิงเทรา,https://www.lazada.co.th/products/pdp-i5085829165.html
+Product,49900.0,Samsung Galaxy S23 5G Ultra (12/512GB)  1  ,1,5,ปทุมธานี,https://www.lazada.co.th/products/pdp-i4389648521.html
+Product,46900.0,"Samsung GALAXY S25ULT,5G,12/512GB",1,5,สมุทรปราการ,https://www.lazada.co.th/products/pdp-i5589683535.html
+Product,46900.0,Samsung Galaxy S25 Ultra 5G (12/256GB) (activate )  Galaxy Ai   (1) By TG,5,5,ปทุมธานี,https://www.lazada.co.th/products/pdp-i5581898442.html
+Product,46900.0,"Samsung Galaxy S25 Ultra 12/256GB,512GB,1TB",156,4,ฉะเชิงเทรา,https://www.lazada.co.th/products/pdp-i5566378820.html
+Product,46900.0,"[ 6,000.-] Samsung Galaxy S25 Ultra 5G  12GB/512GB  AI  ",12,5,ชลบุรี,https://www.lazada.co.th/products/pdp-i5516113255.html
+Product,44900.0,"Samsung Galaxy S25 Ultra 12/256GB,512GB,1TB",151,5,ฉะเชิงเทรา,https://www.lazada.co.th/products/pdp-i5618198056.html
+Product,43900.0,"[ 2,000.-] Samsung Galaxy S25 Ultra 5G  12GB/256GB  AI  ",96,4,ชลบุรี,https://www.lazada.co.th/products/pdp-i5516083329.html
+Product,43900.0,Samsung Galaxy S22 ULTRA 5G (12/256GB)  1   !!  1 ,1,5,ปทุมธานี,https://www.lazada.co.th/products/pdp-i3389865255.html
+Product,36900.0,"Samsung GALAXY S25+,5G,12/256GB",1,5,สมุทรปราการ,https://www.lazada.co.th/products/pdp-i5589720183.html
+Product,36900.0,Samsung Galaxy S25+ 5G (12/256GB) (activate )  Galaxy Ai   (1) By TG,3,5,ปทุมธานี,https://www.lazada.co.th/products/pdp-i5581552572.html
+Product,34999.0,Samsung Galaxy S24 Ultra 12/256GB,1702,4,ฉะเชิงเทรา,https://www.lazada.co.th/products/pdp-i5027519460.html
+Product,33990.0,"Samsung Galaxy S24 Ultra 12/256GB,512GB,1TB , AI Phone, Titanium  200MP , S Pen, ",2010,5,ฉะเชิงเทรา,https://www.lazada.co.th/products/pdp-i5076684545.html
+Product,33900.0,"[ 2,000.-] Samsung Galaxy S25+ 5G   12GB/256GB  AI  ",17,5,ชลบุรี,https://www.lazada.co.th/products/pdp-i5516265156.html
+Product,32900.0,"SAMSUNG Galaxy S24 Ultra (RAM 12GB, 256GB, Titanium Black)",66,4,สมุทรปราการ,https://www.lazada.co.th/products/pdp-i5101031161.html
+Product,32900.0,"SAMSUNG Galaxy S24 Ultra (RAM 12GB, 256GB, Titanium Gray)",75,4,สมุทรปราการ,https://www.lazada.co.th/products/pdp-i5101039086.html
+Product,32632.0,Samsung Galaxy S24 Ultra (12/256GB) Galaxy Ai   1  ,12,5,ปทุมธานี,https://www.lazada.co.th/products/pdp-i5040804384.html
+Product,29900.0,"Samsung Galaxy S25 12/256GB,512GB",76,5,ฉะเชิงเทรา,https://www.lazada.co.th/products/pdp-i5566352683.html
+Product,29900.0,Samsung Galaxy S25 5G (12/256GB) (activate )  Galaxy Ai   (1) By TG,18,5,ปทุมธานี,https://www.lazada.co.th/products/pdp-i5580495860.html
+Product,27900.0,"[ 2,000.-] Samsung Galaxy S25 5G  12GB/256GB  AI  ",19,4,ชลบุรี,https://www.lazada.co.th/products/pdp-i5515970641.html
+Product,18400.0,"Samsung Galaxy S24 FE    AI  50MP  6.7""",5,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5381338505.html
+Product,17900.0,Samsung Galaxy S24 FE 5G (Galaxy Ai)    1   By TG,99,5,ปทุมธานี,https://www.lazada.co.th/products/pdp-i5357999306.html
+Product,17900.0,"Samsung Galaxy S24 FE 8/128GB,256GB",393,5,ฉะเชิงเทรา,https://www.lazada.co.th/products/pdp-i5338447149.html
+Product,17900.0,"Samsung Galaxy S24 FE 8/128GB,256GB",31,5,ฉะเชิงเทรา,https://www.lazada.co.th/products/pdp-i5470426636.html
+Product,15999.0,Samsung Galaxy A56 5G 12/256GB,3,5,ฉะเชิงเทรา,https://www.lazada.co.th/products/pdp-i5661695041.html
+Product,15999.0, SAMSUNG Galaxy A56 5G (12/256GB)     6 ,1,5,สมุทรปราการ,https://www.lazada.co.th/products/pdp-i5649813949.html
+Product,15989.0,Samsung Galaxy A56 5G 8/128GB  12/256GB   Galaxy Fit3  300.-,41,5,ฉะเชิงเทรา,https://www.lazada.co.th/products/pdp-i5642257261.html
+Product,14999.0,Samsung Galaxy A55 5G (12/256GB) ( 1 ) By Jaymart,155,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5096335546.html
+Product,13999.0,Sumsung Galaxy A56 5G 8/128GB,19,5,ฉะเชิงเทรา,https://www.lazada.co.th/products/pdp-i5663869445.html
+Product,13490.0,"Samsung Galaxy A56 5G (8+128 ,12+256GB)   1   NET PLUS",1,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5693792506.html
+Product,13400.0, 1   Redmi Pad      NET PLUS Mall (AP),127,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5572715954.html
+Product,11490.0,[NEW]POCO X7 PRO 12+256/12+512 | Dimensity 8400-Ultra | 6000mAh (typ)  90W| AMOLED CrystalRes 1.5K 120Hz| 50MP  OIS| IP68*,3250,5,สมุทรปราการ,https://www.lazada.co.th/products/pdp-i5509935896.html
+Product,10999.0,Sumsung Galaxy A26 5G 8/256GB,2,5,ฉะเชิงเทรา,https://www.lazada.co.th/products/pdp-i5710916764.html
+Product,10990.0,Samsung Galaxy A35 5G (8+128GB)  VDO 4K  Super Fast Charging     #netplus,2,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5648458425.html
+Product,10794.0,"SAMSUNG Galaxy A34 5G (RAM 8GB, 128GB)",8,5,สมุทรปราการ,https://www.lazada.co.th/products/pdp-i4866295894.html
+Product,9390.0,V50 Lite 5G (vivo) (8+256GB)      NET PLUS Mall,1,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5512687222.html
+Product,6999.0,Samsung Galaxy A16 5G 8/256GB,548,5,ฉะเชิงเทรา,https://www.lazada.co.th/products/pdp-i5391079607.html
+Product,6374.0,【4K 60Hz】UGREEN 10-in-1 10Gbps USB C Multiport Adapter HUB  for Macbook Air M3 Samsung S24 Ultra Model: 90912,12,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i4384852455.html
+Product,5590.0,Samsung Galaxy A16 5G 4/128GB,1253,5,ฉะเชิงเทรา,https://www.lazada.co.th/products/pdp-i5391079608.html
+Product,4999.0,"[] Xiaomi Redmi Pad SE 6+128/8+256  6nm Snapdragon  11"" 90Hz  15 ",979,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i4837738910.html
+Product,4080.0,Adidas  Barricade 13 | Cloud White/Core Black/Semi Green Spark S24 ( IG3114 ),8,5,นนทบุรี,https://www.lazada.co.th/products/pdp-i5018566571.html
+Product,4080.0,Adidas  Barricade 13 | Cloud White/Core Black/Crystal Jade S24 ( IF0409 ),1,5,นนทบุรี,https://www.lazada.co.th/products/pdp-i5018612436.html
+Product,3968.0,NEEWER LS-59 85. HD   17 .  iPhone 16 15 Pro Max Samsung S25 S24 S23 Ultra,7,5,สมุทรปราการ,https://www.lazada.co.th/products/pdp-i5542975464.html
+Product,3851.0,【Nexode】UGREEN GaN 300W Fast Charger Adapter  for Laptop Macbook iPad iPhone 15 Pro Max Samsung S25 S24 Ultra Model:90872,199,4,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i4867806710.html
+Product,3177.0,【4K 60Hz】UGREEN 13-in-1 10Gbps USB C Multiport Adapter HUB  for Macbook Air M3 Samsung S24 Ultra Model: 15978,38,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i4792517846.html
+Product,2999.0,【Nexode】UGREEN GaN 200W USB C Fast Charger Adapter  for Laptop MacBook iPad iPhone 15 14 Pro Max Samsung S25 S24 Ultra Model: 40913,232,5,ฉะเชิงเทรา,https://www.lazada.co.th/products/pdp-i3907399617.html
+Product,2876.0,RIPCURL  01GMJA ARCHIVE SUPER COMPUTER JACKET S24,4,4,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5400817645.html
+Product,2876.0,RIPCURL  UV 15CWRV PREMIUM SURF LS SURF SUIT S24,5,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5388751436.html
+Product,2876.0,RIPCURL  UV 17DWRV LOTTIE CHECK LS UPF SURFSUIT S24,2,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5388582795.html
+Product,2752.72, m-horse  S24 Ram8GB Rom128GB  4G   6.6     ,8,4,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5229112828.html
+Product,2750.0,【Nexode Pro】UGREEN GaN 160W Fast Charger Foldable Adapter  for MacBook iPad iPhone 15 14 Pro Max Samsung S25 S24 Steam Deck Model: 25094,156,4,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5018972020.html
+Product,2556.0,RIPCURL  09OMBO MIRAGE SEARCH S24,3,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5589827774.html
+Product,2511.0,【Nexode X】UGREEN GaN 160W Fast Charger Foldable Adapter  for MacBook iPad iPhone 15 14 Pro Max Samsung S25 S24 Ultra Steam Deck Model: 35039,35,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5098921088.html
+Product,2372.0,Pitaka  Galaxy S24 Ultra -  PinButton -  Black/Grey Twill by Vgadz,57,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5191139661.html
+Product,2236.0,RIPCURL   02DMWS CLASSIC SURF TRAIL CARGO S24,3,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5589838809.html
+Product,2236.0,RIPCURL   02CMWS CLASSIC SURF DENIM WALKSHORT S24,3,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5508012194.html
+Product,2236.0,RIPCURL   03AMWS ARCHIVE DENIM WALK SHORT S24,6,4,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5507973314.html
+Product,2236.0,RIPCURL   02HMWS SUPER COMPUTER DENIM WALKSHORT S24,3,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5507788790.html
+Product,2233.0,UAG -  Galaxy S24 / S24 Plus / S24 Ultra  Monarch Pro,66,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5040032835.html
+Product,2233.0,UAG  Galaxy S24 / S24 Plus / S24 Ultra  Monarch Pro by Vgadz,64,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5038752374.html
+Product,2202.0,Pitaka -  Galaxy S24 Ultra  MagEZ Case 4 by Vgadz,102,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5039862332.html
+Product,2199.1,YORU  S24 Ultra 5G  16+512GB Android14.0 8000mAh ,7,5,ปทุมธานี,https://www.lazada.co.th/products/pdp-i5717979577.html
+Product,2152.0,RIPCURL   0JTWSW SUN TO SEA L/L CROP TOP & CHEEKY HIPSTER BOT S24,4,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5388528949.html
+Product,2117.0,[Official] Boxset S24 Ultra  3D UV Ultra Clear    1  Ablemen,4,5,สมุทรปราการ,https://www.lazada.co.th/products/pdp-i5009184090.html
+Product,2090.0,Pitaka  MagEZ Case 4 -  Galaxy S24 Ultra by Vgadz,11,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5263572387.html
+Product,2086.9,YORU  S24 Ultra 5G  12+512GB Android14.0 8000mAh ,22,4,ปทุมธานี,https://www.lazada.co.th/products/pdp-i5505982495.html
+Product,2076.0,RIPCURL   0FDWSW PREMIUM SURF CHEEKY 1PC S24,1,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5388839089.html
+Product,2076.0,RIPCURL   0JDWSW BEACH PARTY D-DD ONE PIECE S24,2,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5388824129.html
+Product,2076.0,RIPCURL   0JZWSW LOTTIE CHECK GOOD ONE PIECE S24,2,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5388501954.html
+Product,2076.0,RIPCURL   0I3WSW CLASSIC SURF ONE PIECE S24,1,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5400844543.html
+Product,2076.0,RIPCURL   02ZMWS BOARDWALK PHASE NINETEEN S24,11,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5508368506.html
+Product,2076.0,RIPCURL  06EMFL HERITAGE ZIP THRU HOOD S24,1,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5574289211.html
+Product,1992.0,RIPCURL   0J8WSW BEACH PARTY D-DD CROP TOP &GOOD PANT S24,2,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5388821109.html
+Product,1990.0, OtterBox Defender XT Series - Samsung Galaxy S24 Ultra,1,5,นนทบุรี,https://www.lazada.co.th/products/pdp-i5065995660.html
+Product,1946.0,UAG -  Galaxy S24 Ultra  Metropolis LT Magnet,19,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5039890613.html
+Product,1946.0,UAG  Galaxy S24 Ultra  Metropolis LT Magnet by Vgadz,31,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5038601887.html
+Product,1912.0,RIPCURL   0AUWSW PREMIUM SURF D-DD SLIDING TRI TOP & CHEEKY PANT S24,3,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5388868021.html
+Product,1756.0,RIPCURL  047MSH HOFFMAN MICRO S/S SHIRT S24,1,4,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5590208045.html
+Product,1756.0,RIPCURL  UV 14RMRV ISLAND VIBE UPF L/S S24,2,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5589941714.html
+Product,1756.0,RIPCURL  044MSH HOFFMAN S/S SHIRT S24,4,5,กรุงเทพมหานคร,https://www.lazada.co.th/products/pdp-i5589877790.html

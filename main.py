@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import re
-
+from tqdm import tqdm
 
 def get_title(soup):
     try:
@@ -62,6 +62,18 @@ def get_location(soup):
         location_string = "ในประเทศไทย"
     return location_string
 
+def get_link(soup):
+    try:
+        container = soup.find("div", class_="_95X4G")
+        a_tag = container.find("a", href=True)
+        relative_link = a_tag["href"]
+        full_link = "https:" + relative_link if relative_link.startswith("//") else relative_link
+        return full_link
+    except AttributeError:
+        return "N/A"
+
+
+
 if __name__ == "__main__":
     PRODUCT = input("🔍 Enter product name to search on Lazada: ")
     ENCODED_PRODUCT = urllib.parse.quote(PRODUCT)
@@ -72,7 +84,7 @@ if __name__ == "__main__":
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-    for i in range(1, 3):
+    for i in tqdm(range(1, 3), desc="Scraping pages"):
         URL = f"https://www.lazada.co.th/catalog/?q={ENCODED_PRODUCT}&sort=pricedesc&service=official&location=Local&rating=4&page={i}"
         driver.get(URL)
         print(f"Loading page {i} ...")
@@ -88,6 +100,7 @@ if __name__ == "__main__":
             review_count = get_review_count(product)
             rating = get_rating(product)
             location = get_location(product)
+            link = get_link(product)
 
             data.append({
                 "Title": title,
@@ -95,7 +108,8 @@ if __name__ == "__main__":
                 "Brand": brand,
                 "Review Count": review_count,
                 "Rating": rating,
-                "Location": location
+                "Location": location,
+                "Link": link    
             })
     
     df = pd.DataFrame(data)
@@ -104,4 +118,4 @@ if __name__ == "__main__":
     df.sort_values(by="Price", inplace=True, ascending=False)
     df.to_csv("lazada_data.csv", header=True, index=False)
     driver.quit()
-    print(f"\n✅ Scraping complete! Data saved to: {file_name}")
+    print(f"\n✅ Scraping complete! Data saved to: lazada_data.csv")
