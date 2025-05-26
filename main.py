@@ -63,7 +63,7 @@ def get_location(soup):
     return location_string
 
 if __name__ == "__main__":
-    PRODUCT = "SAMSUNG Galaxy S24"
+    PRODUCT = input("🔍 Enter product name to search on Lazada: ")
     ENCODED_PRODUCT = urllib.parse.quote(PRODUCT)
     data = []
     options = Options()
@@ -71,6 +71,7 @@ if __name__ == "__main__":
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+
     for i in range(1, 3):
         URL = f"https://www.lazada.co.th/catalog/?q={ENCODED_PRODUCT}&sort=pricedesc&service=official&location=Local&rating=4&page={i}"
         driver.get(URL)
@@ -103,4 +104,4 @@ if __name__ == "__main__":
     df.sort_values(by="Price", inplace=True, ascending=False)
     df.to_csv("lazada_data.csv", header=True, index=False)
     driver.quit()
-
+    print(f"\n✅ Scraping complete! Data saved to: {file_name}")
