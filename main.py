@@ -34,7 +34,6 @@ def get_brand(soup):
         brand_string = re.sub(r'[\u0E00-\u0E7F]', '', brand_string)
     except AttributeError:
         brand_string = "N/A"
-
     return brand_string
 
 
@@ -59,7 +58,7 @@ def get_location(soup):
         location_value = location.text.strip("()")
         location_string = location_value.strip()
     except AttributeError:
-        location_string = "ในประเทศไทย"
+        location_string = "Local"
     return location_string
 
 def get_link(soup):
@@ -76,16 +75,23 @@ def get_link(soup):
 
 if __name__ == "__main__":
     PRODUCT = input("🔍 Enter product name to search on Lazada: ")
+    SEARCH = input("🔍 How many pages to scrape: ")
     ENCODED_PRODUCT = urllib.parse.quote(PRODUCT)
     data = []
     options = Options()
-    options.add_argument("--headless=new")  # ถ้าไม่ต้องโชว์ browser
+    options.add_argument("--headless=new") 
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-    for i in tqdm(range(1, 3), desc="Scraping pages"):
-        URL = f"https://www.lazada.co.th/catalog/?q={ENCODED_PRODUCT}&sort=pricedesc&service=official&location=Local&rating=4&page={i}"
+    for i in tqdm(range(1, int(SEARCH)), desc="Scraping pages"):
+        URL = f"""https://www.lazada.co.th/catalog/?q={ENCODED_PRODUCT}
+                &sort=pricedesc
+                &service=official
+                &location=Local
+                &rating=4
+                &page={i}"""
+
         driver.get(URL)
         print(f"Loading page {i} ...")
         driver.implicitly_wait(10)

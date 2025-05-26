@@ -5,7 +5,7 @@ This Python script scrapes product information from [Lazada Thailand](https://ww
 ## 📦 Features
 
 - Scrapes product info from Lazada search results
-- Supports pagination (currently set to 2 pages)
+- Supports pagination
 - Collects:
   - Product Title
   - Price
