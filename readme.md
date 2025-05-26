@@ -191,7 +191,7 @@ python main.py -q "iPhone 15" -p 5 --no-headless
 - Python 3.7+
 - Chrome browser installed
 - Internet connection
-- 4GB+ RAM recommended
+- >512MB RAM recommended
 
 ### Python Dependencies
 ```txt
