@@ -9,14 +9,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 import re
 from tqdm import tqdm
 
-def get_title(soup):
-    try:
-        title = soup.find("h1", attrs={"class": "JrAyI"})
-        title_value = title.text
-        title_string = title_value.strip()
-    except AttributeError:
-        title_string = "Product"
-    return title_string
 
 def get_price(soup):
     try:
@@ -100,7 +92,7 @@ if __name__ == "__main__":
         products = soup.find_all("div", class_="Bm3ON")
 
         for product in products:
-            title = get_title(product)
+            
             price = get_price(product)
             brand = get_brand(product)
             review_count = get_review_count(product)
@@ -109,7 +101,7 @@ if __name__ == "__main__":
             link = get_link(product)
 
             data.append({
-                "Title": title,
+                "Product_Page": i,
                 "Price": price,
                 "Brand": brand,
                 "Review Count": review_count,
