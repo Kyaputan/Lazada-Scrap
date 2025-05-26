@@ -52,7 +52,7 @@ python main.py -q "Samsung Galaxy" -p 10 --no-headless -o "samsung_data.csv"
 The script will create a CSV file (default: `lazada_data.csv`) in the same directory, containing the scraped data sorted by price (descending).
 
 ## 📖 Command Line Options
-
+<div align="center">
 | Option | Short | Description | Default |
 |--------|-------|-------------|---------|
 | `--query` | `-q` | Product name to search for | Required* |
@@ -62,7 +62,9 @@ The script will create a CSV file (default: `lazada_data.csv`) in the same direc
 | `--interactive` | - | Run in interactive mode | - |
 | `--version` | - | Show version information | - |
 
-*Required unless using `--interactive` mode
+</div>
+
+<small>*Required unless using `--interactive` mode</small>
 
 ## 🎯 Usage Examples
 
