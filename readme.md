@@ -67,17 +67,20 @@ python main.py -q "Samsung Galaxy" -p 10 --no-headless -o "samsung_data.csv"
 The script will create a CSV file (default: `lazada_data.csv`) in the same directory, containing the scraped data sorted by price (descending).
 
 ## 📖 Command Line Options
+
 <p align="center"><b>Available CLI Parameters</b></p>
-| Option | Short | Description | Default |
-|--------|-------|-------------|---------|
-| `--query` | `-q` | Product name to search for | Required* |
-| `--pages` | `-p` | Number of pages to scrape (1-50) | 5 |
-| `--no-headless` | - | Run browser in visible mode | headless |
-| `--output` | `-o` | Output CSV filename | lazada_data.csv |
-| `--interactive` | - | Run in interactive mode | - |
-| `--version` | - | Show version information | - |
+
+| Option          | Short | Description                          | Default          |
+|-----------------|-------|--------------------------------------|------------------|
+| `--query`       | `-q`  | Product name to search for           | Required*        |
+| `--pages`       | `-p`  | Number of pages to scrape (1–50)     | 5                |
+| `--no-headless` | -     | Run browser in visible mode          | headless         |
+| `--output`      | `-o`  | Output CSV filename                  | lazada_data.csv  |
+| `--interactive` | -     | Run in interactive mode              | -                |
+| `--version`     | -     | Show version information             | -                |
 
 <small>*Required unless using `--interactive` mode</small>
+
 
 ## 🎯 Usage Examples
 
