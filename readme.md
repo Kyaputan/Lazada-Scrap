@@ -2,6 +2,21 @@
 
 This Python script scrapes product information from [Lazada Thailand](https://www.lazada.co.th) using Selenium and BeautifulSoup. It extracts data such as title, price, brand, review count, rating, and location for a specified product and saves the result to a CSV file.
 
+## 📚 Table of Contents
+
+- [🛒 Lazada Web Scraper](#-lazada-web-scraper)
+- [📦 Features](#-features)
+- [🚀 Getting Started](#-getting-started)
+- [📖 Command Line Options](#-command-line-options)
+- [🎯 Usage Examples](#-usage-examples)
+- [📊 Output Data Structure](#-output-data-structure)
+- [🔧 Requirements](#-requirements)
+- [🔍 Troubleshooting](#-troubleshooting)
+- [🚨 Legal Notice](#-legal-notice)
+- [📁 File Structure](#-file-structure)
+- [📝 License](#-license)
+
+
 ## 📦 Features
 
 - 🎨 **Beautiful Terminal Interface** - Colorful output with progress bars and icons
@@ -52,7 +67,7 @@ python main.py -q "Samsung Galaxy" -p 10 --no-headless -o "samsung_data.csv"
 The script will create a CSV file (default: `lazada_data.csv`) in the same directory, containing the scraped data sorted by price (descending).
 
 ## 📖 Command Line Options
-<div align="center">
+<p align="center"><b>Available CLI Parameters</b></p>
 | Option | Short | Description | Default |
 |--------|-------|-------------|---------|
 | `--query` | `-q` | Product name to search for | Required* |
@@ -61,8 +76,6 @@ The script will create a CSV file (default: `lazada_data.csv`) in the same direc
 | `--output` | `-o` | Output CSV filename | lazada_data.csv |
 | `--interactive` | - | Run in interactive mode | - |
 | `--version` | - | Show version information | - |
-
-</div>
 
 <small>*Required unless using `--interactive` mode</small>
 
@@ -90,7 +103,7 @@ python main.py -q "iPhone 15" -p 5 --no-headless
 
 ## 🎨 Terminal Interface Preview
 
-```
+```console
 ╔═══════════════════════════════════════════════════════════════╗
 ║                       LAZADA SCRAPER v2.0                     ║
 ║                 Enhanced CLI & Interactive Mode               ║
